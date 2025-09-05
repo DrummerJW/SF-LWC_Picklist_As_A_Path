@@ -11,12 +11,6 @@ A Lightning Web Component that renders any picklist field as a Salesforce Path-l
 <img width="848" height="151" alt="image" src="https://github.com/user-attachments/assets/43420d95-7a7b-4188-98d3-fed85ec7b51a" />
 
 
-
-
-<img width="860" height="304" alt="image" src="https://github.com/user-attachments/assets/85e98272-c837-4321-949d-3ef0f3ac2430" />
-
-
-
 ## Component API (Design Attributes)
 Add the custom component 'Picklist as a Path' to a Lightning Record Page and configure:
 
@@ -26,11 +20,11 @@ Add the custom component 'Picklist as a Path' to a Lightning Record Page and con
 - confettiOnClose | Boolean | No | When true, launching an update to the closed value triggers full‑screen confetti. |
 - confettiDurationSeconds | Integer | No | Length of the confetti animation (default 4, maximum 10). Values <=0 ignored reverting to default. |
 
-
 ## Confetti Details
 - Confetti can be enabled or disabled from the properties in App Builder.
 - A duration can be set up to 10 secons for Confetti to appear on users console when the path is updated to the Closed status.
 
+<img width="860" height="304" alt="image" src="https://github.com/user-attachments/assets/85e98272-c837-4321-949d-3ef0f3ac2430" />
 
 ## Error Handling Strategy
 - Central helper `_showToast` for consistent toast emission.

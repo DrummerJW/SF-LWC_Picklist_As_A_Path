@@ -19,12 +19,15 @@ Add the custom component 'Picklist as a Path' to a Lightning Record Page and con
 - updateButtonHidden | Boolean | No | Hide the action button entirely (selection still highlights but no update control). |
 - confettiOnClose | Boolean | No | When true, launching an update to the closed value triggers full‑screen confetti. |
 - confettiDurationSeconds | Integer | No | Length of the confetti animation (default 4, maximum 10). Values <=0 ignored reverting to default. |
+- 
+<img width="860" height="304" alt="image" src="https://github.com/user-attachments/assets/85e98272-c837-4321-949d-3ef0f3ac2430" />
 
 ## Confetti Details
 - Confetti can be enabled or disabled from the properties in App Builder.
 - A duration can be set up to 10 secons for Confetti to appear on users console when the path is updated to the Closed status.
 
-<img width="860" height="304" alt="image" src="https://github.com/user-attachments/assets/85e98272-c837-4321-949d-3ef0f3ac2430" />
+<img width="894" height="465" alt="image" src="https://github.com/user-attachments/assets/7e280e08-b91a-495d-b7b8-32e942777c55" />
+
 
 ## Error Handling Strategy
 - Central helper `_showToast` for consistent toast emission.

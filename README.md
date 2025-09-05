@@ -7,14 +7,20 @@ A Lightning Web Component that renders any picklist field as a Salesforce Path-l
 - Toast notifications on successful update or errors
 - Optional confetti on close with configurable duration (default 4s, max 10s)
 
+<img width="848" height="151" alt="image" src="https://github.com/user-attachments/assets/43420d95-7a7b-4188-98d3-fed85ec7b51a" />
+
+<img width="860" height="304" alt="image" src="https://github.com/user-attachments/assets/85e98272-c837-4321-949d-3ef0f3ac2430" />
+
+
+
 ## Component API (Design Attributes)
 Add the custom component 'Picklist as a Path' to a Lightning Record Page and configure:
 
-| field | String | Yes | API name of the picklist field to visualize (e.g. `StageName`, `Status__c`). |
-| closedLabel | String | Yes | The exact picklist value considered “closed / final”. Triggers confetti (if enabled) and disables default advance action. |
-| updateButtonHidden | Boolean | No | Hide the action button entirely (selection still highlights but no update control). |
-| confettiOnClose | Boolean | No | When true, launching an update to the closed value triggers full‑screen confetti. |
-| confettiDurationSeconds | Integer | No | Length of the confetti animation (default 4, maximum 10). Values <=0 ignored reverting to default. |
+- field | String | Yes | API name of the picklist field to visualize (e.g. `StageName`, `Status__c`). |
+- closedLabel | String | Yes | The exact picklist value considered “closed / final”. Triggers confetti (if enabled) and disables default advance action. |
+- updateButtonHidden | Boolean | No | Hide the action button entirely (selection still highlights but no update control). |
+- confettiOnClose | Boolean | No | When true, launching an update to the closed value triggers full‑screen confetti. |
+- confettiDurationSeconds | Integer | No | Length of the confetti animation (default 4, maximum 10). Values <=0 ignored reverting to default. |
 
 
 ## Confetti Details

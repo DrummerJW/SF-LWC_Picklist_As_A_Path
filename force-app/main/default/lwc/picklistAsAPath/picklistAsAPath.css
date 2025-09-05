@@ -1,0 +1,16 @@
+.slds-path__item.slds-is-active .slds-path__title {
+    color: #ffffff;
+}
+
+.slds-path__item.slds-is-complete .slds-path__title {
+    color: inherit;
+}
+
+.slds-path__item.slds-is-active .slds-path__title {
+    text-shadow: 0 0 2px rgba(0,0,0,0.4);
+}
+
+.slds-path__item.slds-is-current:not(.slds-is-active) .slds-path__title {
+    color: inherit;
+    text-shadow: none;
+}

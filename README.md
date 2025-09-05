@@ -7,7 +7,11 @@ A Lightning Web Component that renders any picklist field as a Salesforce Path-l
 - Toast notifications on successful update or errors
 - Optional confetti on close with configurable duration (default 4s, max 10s)
 
+
 <img width="848" height="151" alt="image" src="https://github.com/user-attachments/assets/43420d95-7a7b-4188-98d3-fed85ec7b51a" />
+
+
+
 
 <img width="860" height="304" alt="image" src="https://github.com/user-attachments/assets/85e98272-c837-4321-949d-3ef0f3ac2430" />
 
